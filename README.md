@@ -14,7 +14,7 @@ Jcrfsuite can be dropped into any Java web applications and run without problem 
 <dependency>
   <groupId>com.github.vinhkhuc</groupId>
   <artifactId>jcrfsuite</artifactId>
-  <version>0.6.1</version>
+  <version>0.6.1-TLND</version>
 </dependency>
 ```
 
