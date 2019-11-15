@@ -111,9 +111,11 @@ public class CrfSuiteLoader {
 	  
     private static ClassLoader getRootClassLoader() {
         ClassLoader cl = Thread.currentThread().getContextClassLoader();
+        /* We want to keep the tacokit classloader
         while (cl.getParent() != null) {
             cl = cl.getParent();
         }
+        */
         return cl;
     }
 
